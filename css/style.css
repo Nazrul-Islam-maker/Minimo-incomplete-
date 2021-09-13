@@ -1,0 +1,119 @@
+/* font-family: 'Playfair Display', serif; */
+
+/* font-family: 'Ubuntu', sans-serif */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    /*! background-color: antiquewhite; */
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.logo{
+
+    width: 20%;
+}
+nav{
+
+    width: 50%;
+}
+nav ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.banner{
+
+    width: 90%;
+    margin-left: 5%;
+}
+.banner img{
+    
+    width: 100%;
+}
+.photodiary{
+
+
+    width: 80%;
+    margin-left: 10%;
+    padding: 50px 0;
+}
+.photodiary h5{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.photodiary h1{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 40px;
+    margin-bottom: 26px;
+}
+.photodiary p{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.photodiary h6{
+    
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lifestyle{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+.lifestyle_one{
+
+    width: 42%;
+    margin-bottom: 45px;
+}
+.lifestyle_one img{
+
+    width: 100%;
+}
+.lifestyle_one h5{
+
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lifestyle_one h1{
+
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 26px;
+    text-transform: capitalize;
+}
+.lifestyle_one p{
+
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin-bottom: 15px;
+}
